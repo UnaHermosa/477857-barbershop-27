@@ -65,7 +65,22 @@
         </fieldset>
         <fieldset>
           <legend>Группы товаров:</legend>
+          <ul>
+            <li>
+              <input id="filter-shave" type="radio" name="product-group" value="shaving" checked>
+              <label for="filter-shave">Бритвенные принадлежности</label>
+            </li>
+            <li>
+              <input id="filter-care" type="radio" name="product-group" value="hair-care">
+              <label for="filter-care">Средства для ухода</label>
+            </li>
+            <li>
+              <input id="filter-accessories" type="checkbox" name="product-group" value="accessories">
+              <label for="filter-accessories">Аксессуары</label>
+            </li>
+          </ul>
         </fieldset>
+        <button type="submit">Показать</button>
       </form>
     </section>
     <section>
